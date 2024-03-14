@@ -1,168 +1,220 @@
 # Mintbase Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
->
-> See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
-
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
-
-> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+- **Project Name:** Mutable Web
+- **Team Name:** Dapplets project
+- **Payment Address:** NEEDS TO BE FILLED
+- **[Level]:** 2
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
+Mutable Web is a decentralized, community-driven, legacy-compatible web3
 
 ### Overview
 
-Please provide the following:
+**Project description**
+We have created a platform that enables the development, launch, and delivery of dApps that seamlessly run on top of any websites, embedding into the UX without having to get permission from the owners of those websites.
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+Any point on the web can be defined, attributed, and used as a source for a web3 action (transaction, tokenization, service delivery). We provide a tokenized persistence layer for this to be true.
+
+We aim to target web3 projects that benefit from addressing their users from familiar UI of popular social networks (Twitter, Reddit, LinkedIn, Github, Youtube) by giving them new functionality.
+
+Our platform provides opportunities and tools for the emergence of a large variant of network effects, and new business cases and aims to motivate the community, users, and web3 developers to become early adopters of the concept and promote it to the masses.
+
+The two main elements of the Mutable Web are the environment for running applications - the browser extension that handles the delivery of applications to sites and the user. And the applications developed by third-party developers.
+
+Currently, we have launched an MVP extension and are in the process of creating meaningful applications that will populate the first platform adopters and onboard app developers. We want to launch several small applications by turning some of the templates offered by Mintbase into comprehensible products and open the possibility for other developers to launch similar products on our platform.
+
+Our plans to launch 3 apps, viz:
+
+- NFT Sales Facilitator - a widget that any user can add to an existing social media post, allowing them to receive a commission through the Affiliation Direct program on a successful purchase.
+
+- NFT illustrator widget - a user can "decorate" any social media post with an AI-generated image based on the content of the post with some added context.
+
+- Alternative Feed widget - user can start a thread with comments based on the NFT contract under any social media post, setting their own rules for participation.
+
+**Relation to NEAR Ecosystem / Integration into the Mintbase**
+We use NEAR BOS at the very core of our project. The extension is a customized BOS-vm that allows you to download BOS components and embed them anywhere on an already existing page enriching it with web3 functionality.
+
+Also running a separate fork of Near.Social that provides the same functionality on top of a site built entirely on BOS.
+We also delivered the tool to create verifiable mappings between web2 accounts and NEAR addresses to bring new users into the ecosystem.
+
+In using Mintbase, we see great potential to create small but useful applications that will add new NFT-based functionality to users in their usual habitats (Twitter, Reddit, YouTube, LinkedIn, and Github).
+
+**Team's Interest in the Project**
+The team's efforts are now fully focused on getting the first users and creating positive traction within the NEAR ecosystem to become one of the key projects giving BOS meaning to a wide audience of users and developers.
+To achieve this goal and test our hypotheses, we participated in 4 NEAR hackathons and won 1st prizes in each of them, as well as passed the accelerator organized by Encode and Near Horizon
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+UI Mock-ups - https://www.figma.com/file/nk1dmMUUxWaonr7kwDseXl/mintbaseproposal?type=design&node-id=0-1&mode=design&t=JDqwxjl20qZwmeiN-0
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+Architecture - 
+
+Technology Stack:
 
 ### Ecosystem Fit
 
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+**Where and how does your project fit into the ecosystem?**
+We believe that our solution will lead to the following results:
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+It will be several full-fledged applications utilizing Mintbase that will allow users to get new, previously unavailable functionality and get acquainted with the new concept of Mutable Web. We will use the marketing resources available to us to publicize these applications within the NEAR ecosystem and organize the onboarding of new users outside the system. BOS will be used as the front end of applications, so there will be a set of components that will create new patterns of using Mintbase API and based on which you can run your applications within the social networks we support.
+
+The idea of the whole project is to enable the development of applications based on a new distribution principle, and we believe that Mintbase should be one of the main technologies that are responsible for the creation, processing, and storage of tokenized data and we want to simplify the use of technology to remove the friction from developers.
+
+**Who is your target audience?**
+Our main focus is on blockchain developers, specifically those engaged in the NEAR ecosystem, mostly developers creating decentralized applications. In addition, we plan to target the broader blockchain community as well, to whom we want to provide a meaningful new way to bring their functionality to users in new places using BOS.
+
+**What need(s) does your project meet?**
+At the global level, the project aims to address the problem of centralized ownership of websites, which leads to the loss of user control over their content, its use, and monetization, as well as the inability to influence the direction of the centralized project in any meaningful way.
+
+At the developer level, we solve the issue of access to new, previously inaccessible audiences and solve their problems, which previously could only be handled by website owners.
+
+**Are there any similar projects in the Mintbase / NEAR ecosystem?**
+As far as we know, there is no project solving similar problems within the NEAR ecosystem.
+
+**If not, are there similar projects in related ecosystems?**
+A project that can be said to occupy a similar domain is Mask Network, but they only provide the functionality of the Twitter website and do not allow third-party developers to launch an expanded set of available applications.
 
 ## Team :busts_in_silhouette:
 
 ### Team members
+**Team Lead:** Dmitry Palchun — Engineer, Founder
 
-- Name of team leader
-- Names of team members
+**Team Members:**
+- Alexander Sakhaev — Senior Engineer
+- Konstantin Iakovlev - Product Owner, Advisor
+- Vlad Rockridge - designer
+- Nikita Teremovsky - Engineer
+- Galina Safronova - Front-end developer
 
 ### Contact
-
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** Dmitry Palchun
+- **Contact Email:** business@dapplets.org
+- **Website:** https://dapplets.org
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Marienthaler Str. 173, 20235 Hamburg, Germany
+- **Registered Legal Entity:** Crystal Reality Media GmbH
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
-
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
+**Dmitry Palchun** has a vast background in IT with 20+ years of experience and has been a driver and supporter of the blockchain community since the very beginning. He initially worked as an Ethereum Smart Contract Developer and Architect since 2014.
+**Alexander Sakhaev** is a determined IT professional with 6+ years of experience working with the Dapplets Project from the beginning. Alexander has been engineering software since 2015 while serving in various roles from a developer, architect, project, and program manager to consultant, researcher, and technical director.
+**Konstantin Iakovlev** is the design lead and project manager. He has 15+ years of award-winning story of creating solutions for the corporate and mass market working with the largest international brands and products. Ph.D. in computational linguistics.
+**Vlad “Rockridge”** has more than 6 years of experience in graphical and UI/UX design.
+**Nikita Teremovskiy** and **Galina Safronova** both have several years of experience in software development. 
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/dapplets/
+- https://github.com/dapplets/dapplet-extension
+- https://github.com/dapplets/mutable-web-engine
+- https://github.com/dapplets/mutable-web-gateway
+- https://github.com/dapplets/mutable-web-extension
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/ethernian
+- https://github.com/alsakhaev
+- https://github.com/Ni-2
+- https://github.com/Lisofffa
 
 ### Team LinkedIn Profiles (if available)
-
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/ethernian/
+- https://www.linkedin.com/in/alsakhaev/
+- https://www.linkedin.com/in/aspiro/
+- https://www.linkedin.com/in/nikita-teremovskii/
+- https://www.linkedin.com/in/lisofffa/
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+The current version of the Extension through which applications will be launched is available in the Google Web Store - https://chromewebstore.google.com/detail/mutable-web/cnahdmdbhkphpbpbjjbfdnmbphbenglc
 
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+We also launched a fork of Near.Social supporting community versions (Mutations), in which the applications we are going to develop will also be available. - https://social.dapplets.org/
+
+After we shifted to using NEAR B.O.S in our solution we attended 4 hackathons to get some approval for this new conception. All entries were successful and we won first prizes in all the tracks we participated in.
+
+Web3Hackfest - 2 1st prizes - https://devfolio.co/projects/dapplets-72b4
+
+BOSHacks - 1st prize - https://www.boshacks.com/#/devgovgigs.near/widget/gigs-board.pages.Post?id=1377
+
+Encode x Near - 1st prize
+
+Nearcon 2023 - Innovate Web3 UX with BOS by Proximity Bounty - https://devpost.com/software/b-o-s-mutation-proposal
+
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in USN, and potentially NEAR and nUSDC, the amount will be calculated according to the exchange rate at the time of payment.
+- **Total Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):**  2 FTE
+- **Total Costs:** 18,000 USD
 
-### Milestone 1 Example — Implement Mintbase Modules
+
+### Milestone 1 — NFT Saler
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
-- **Costs:** 8,000 USD
+- **Costs:** 6,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0b. | Documentation | Documentation of the code and a tutorial that explains how a developer can build and deploy a similar application and submit it to Mutation. |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests. There also will be a guide to run tests on your own |
+| 0d. | Article | We will publish an article in Medium about the new opportunity to run such applications using our platform and Mintbase resources.) |
+| 1. | NFT Saler Widget | BOS Application that can be injected to post on Twitter, Reddit, and LinkedIn. A user provides an Affiliate Direct link to insert NFT Offer to the page. Other users can use it to buy NFT. |  
+| 2. | NFT Saler Dashboard | Web App in which each logged-in user can see the injections with NFT that he has posted within different resources, the number of their views, and whether there were sales. It can also be used to remove injections. |  
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2 — NFT illustrator widget
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
+- **Estimated duration:** 1 month
+- **FTE:**  2
+- **Costs:** 6,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | Documentation of the code and a tutorial that explains how a developer can build and deploy a similar application and submit it to Mutation. |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests. There also will be a guide to run tests on your own |
+| 0d. | Article | We will publish an article in Medium about the new opportunity to run such applications using our platform and Mintbase resources.) |
+| 1. | NFT illustrator widget | BOS Application that can be injected to post on Twitter, Reddit, and LinkedIn. The application takes the context of the post in which it is embedded, enriches the text with an additional prompt, and requests an AI image generation service. The resulting image is offered to be minted as an NFT illustration for the post. |  
+| 2. | NFT illustrator Dashboard | Web App that gives access to a list of all user-generated illustrations. As well as a list of all user-generated illustrations with post titles to attract interest in the content. |  
+
+
+### Milestone 2 — Alternative Feed  widget
+
+- **Estimated duration:** 1 month
+- **FTE:**  2
+- **Costs:** 6,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | Documentation of the code and a tutorial that explains how a developer can build and deploy a similar application and submit it to Mutation. |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests. There also will be a guide to run tests on your own |
+| 0d. | Article | We will publish an article in Medium about the new opportunity to run such applications using our platform and Mintbase resources.) |
+| 1. | Alternative Feed widget | BOS Application allowing you to run an NFT-based comment feed attached to posts on Twitter, Github, Reddit and LinkedIn. |  
+| 2. | NFT Smart Contract | A smart contract that runs the feed as a separate collection within which successive NFTs with content are created. |  
+| 3. | Alternative Feed Dashboard | Gives the user the ability to see links to all the feeds he has created and all the feeds in which he participated in all social networks, with the ability to quickly reply and go to the original feed. |  
+
+
 
 ...
 ## Future Plans
 
-Please include here
-
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+We just launched a new version of our extension that uses NEAR BOS instead of predefined elements to define the UI. Since our platform is community and developer-oriented, our main focus at the moment is onboarding existing projects to use the technology, allowing them to bring their functionality to places where it wasn't possible before. We are currently in talks with several projects in the NEAR ecosystem, but since the project and BOS we are using chain agnostic we are also looking to attract projects mainly focused on social networks in other networks.
+We are also working closely with Learn Near Club and will be running a series of beta tests on all released apps.
+Our goal is to create a tool for managing Mutations based on DAO, which defines the list of applications available to users and the principles of revenue sharing between all participants in the process. At this stage, we want to present the project to the communities. Having launched and tested this tool we plan to launch tokenomics.
 
 
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+We learned about the grant program from Luís Freitas when we participated in the Encode x Near Horizon accelerator. 
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+During the existence of the project, we have received and absorbed several R&D grants from ETHSwarm and NEAR Foundation totaling 80K USD. In the last three months, we also won 26К USD in hackathons and were granted 15k USD from NEAR Grassroots Initiative
